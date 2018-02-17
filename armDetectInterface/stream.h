@@ -52,10 +52,6 @@ public:
 				break;
 			}
 		}
-
-
-
-
 	}
 
 	void update();
