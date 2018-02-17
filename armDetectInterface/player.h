@@ -14,7 +14,6 @@ private:
 	cv::Point armPosition[2]; //¶‰E‚Ì˜r‚ğ‚Ô‚¿‚Ş‚±‚Æ‚ğl‚¦‚Ä“ñ‚Â‚Ù‚Çì¬B
 	int armNum;
 	float headDepth;
-    
 	
 public:
 	Player()
@@ -58,7 +57,6 @@ public:
 
 	int getPositionX()const;
 	int getPositionY()const;
-
 	
 };
 

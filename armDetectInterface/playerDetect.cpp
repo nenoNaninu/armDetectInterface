@@ -106,9 +106,7 @@ void PlayerDetect::findPlayer()
 		draw();
 		cv::imshow("binImage", binImage);
 		cv::imshow("inputImage", inputImage);
-
 	}
-
 }
 
 void PlayerDetect::setPlayerId()
@@ -161,7 +159,6 @@ void PlayerDetect::draw()
 				cv::circle(binImage, armPosition[i], 5, cv::Scalar(0), -1);
 			}
 		}
-
 	}
 }
 
@@ -243,7 +240,6 @@ void PlayerDetect::armDetect(const cv::Mat& inputROIDepthImage, float depth, Pla
 			averageArmPosition[i].y = 0;
 		}
 	}
-
 }
 
 
@@ -281,8 +277,6 @@ void PlayerDetect::clacAverageArmPosition(const cv::Point point, cv::Point& outP
 
 		return;
 	}
-
-
 }
 
 

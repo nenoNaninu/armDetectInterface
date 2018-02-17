@@ -77,7 +77,6 @@ void Player::setArmPosition(cv::Point inputPositin[],int inputArmNum)
 	{
 		armPosition[i] = inputPositin[i];
 	}
-
 }
 
 void Player::setHeadDepth(float inputDepth)

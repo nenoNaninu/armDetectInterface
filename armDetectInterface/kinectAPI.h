@@ -21,8 +21,6 @@ private:
 	int depthWidth;
 	int depthHight;
 
-
-
 public:
 	void initialize();
 
@@ -32,6 +30,4 @@ public:
 
 	int getWidth();
 	int getHight();
-
-
 };
